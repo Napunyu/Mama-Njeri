@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms and Menu</title>
+</head>
+<body>
+
+  <label for="dish-select">Select a dish:</label>
+  <input type="text" id="dish-select" name="dish-select">
+
+  <h2>Forms</h2>
+
+  <p>student registration</p>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <div>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first_name">
+      </div>
+
+      <div>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last_name">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+
+      <div>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="">Select</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <select id="dob" name="dob">
+          <option value=""></option>
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username">
+      </div>
+    </fieldset>
+
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3 style="background-color: #d926c8; color: #7a2978; margin-top: 20px;">inline styles</h3>
+
+  <table border="1" cellpadding="2" cellspacing="2">
+    <caption>MENU</caption>
+    <thead>
+      <tr>
+        <th>Dish</th>
+        <th>price</th>
+        <th>sample image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>pilau</td>
+        <td>ksh.350</td>
+        <td><img src="pilau.jpg" alt="Pilau" width="150"></td>
+      </tr>
+      <tr>
+        <td>ugali &amp; sukuma</td>
+        <td>ksh.250</td>
+        <td><img src="ugali-sukuma.jpg" alt="Ugali & Sukuma" width="150"></td>
+      </tr>
+      <tr>
+        <td>chapati(2)</td>
+        <td>ksh.100</td>
+        <td><img src="chapati.jpg" alt="Chapati" width="150"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
